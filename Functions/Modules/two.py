@@ -1,3 +1,4 @@
+#how to display module members?
 import math
 import os
 import sys
