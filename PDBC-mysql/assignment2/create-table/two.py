@@ -8,7 +8,7 @@ mydb=mysql.connector.connect(
 )
 
 cursor=mydb.cursor()
-cursor.execute("SHOW TABLES")
+cursor.execute("show tables")
 
 for x in cursor:
     print(x)
